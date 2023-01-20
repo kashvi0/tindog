@@ -1,0 +1,185 @@
+/*  --------------------------------------------- TAG SELECTORS --------------------------------------------- */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    font-weight: 600
+}
+
+h3{
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+/*  --------------------------------------------- CLASS SELECTORS --------------------------------------------- */
+
+.card{
+    padding: 0;
+    margin-left: 0%;
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.ctadiv{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.ctah3{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 350%;
+    text-align: center;
+}
+
+.icon{
+    color: #ef8172;
+    padding-bottom: 5%;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.pressimage{
+    width: 15%;
+    padding: 1% 1% 3%;
+}
+
+.prow{
+    padding-bottom: 3%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+/*  --------------------------------------------- CLASS TAG SELECTORS --------------------------------------------- */
+
+button.download{
+    margin: 5% 3% 5% 0;
+}
+
+div.features{
+    text-align : center;
+}
+
+h1.heading{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+i.footer{
+    padding: 1%;
+}
+
+img.dog{
+    transform: rotate(25deg);
+    margin-left: 10%;
+    width: 18%;
+    height: auto;
+    position: absolute;
+}
+
+p.features{
+    color: #8f8f8f;
+    padding: 0 10% 0 10%;
+}
+
+p.footer{
+    color: gray;
+    padding-top: 1%;
+}
+
+/*  --------------------------------------------- ID SELECTORS --------------------------------------------- */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15% 3% 15%;
+    margin-top: 5%;
+}
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: white;
+}
+
+#footer{
+    margin: 5%;
+    text-align: center;
+}
+
+#pricing{
+    padding: 3%;
+    text-align: center;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+/*  --------------------------------------------- MEDIA SELECTORS --------------------------------------------- */
+
+@media screen and (max-width: 1020px){
+    #title{
+        text-align: center;
+    }
+    .dog{
+        position: static;
+        transform: rotate(0);
+    }
+}
